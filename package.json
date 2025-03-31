@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:baro": "node dist/baro/server/server.mjs"
+    "serve:ssr:baro": "node dist/baro/server/server.mjs",
+    "build-n": "ng build --output-path site --base-href /Baro_website"
   },
   "private": true,
   "dependencies": {
