@@ -3,6 +3,7 @@ h2 {
   font-size: 200px;
   text-align: center;
   color: var(--main-color);
+  margin: 0 40px;
 }
 
 h3 {
@@ -10,4 +11,21 @@ h3 {
   font-size: 100px;
   text-align: center;
   color: var(--main-color);
+  margin: 0 20px;
+}
+
+h4 {
+  font-family: Baro;
+  font-size: 100px;
+  text-align: center;
+  color: var(--main-color);
+  margin-top: 40px;
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
