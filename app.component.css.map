@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": ["h2 {\r\n  font-family: Baro;\r\n  font-size: 200px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n}\r\n\r\nh3 {\r\n  font-family: Baro;\r\n  font-size: 100px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;;AAGF;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;;",
+  "names": []
+}

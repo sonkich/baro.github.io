@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.scss"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n@font-face {\r\n  font-family: 'Baro';\r\n  src: url(\"assets/fonts/ST-Artefakt-free.otf\") format('opentype');\r\n}\r\n\r\n\r\nbody {\r\n  background-image: url('assets/images/background.jpg');\r\n  background-size: 40%;\r\n}\r\n\r\n:root {\r\n  --main-color: #686945;\r\n}\r\n"],
+  "mappings": ";AACA;AACE,eAAA;AACA,OAAA,oCAAA,OAAA;;AAIF;AACE,oBAAA;AACA,mBAAA;;AAGF;AACE,gBAAA;;",
+  "names": []
+}
