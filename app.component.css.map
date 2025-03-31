@@ -1,7 +1,7 @@
 {
   "version": 3,
   "sources": ["src/app/app.component.scss"],
-  "sourcesContent": ["h2 {\r\n  font-family: Baro;\r\n  font-size: 200px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n}\r\n\r\nh3 {\r\n  font-family: Baro;\r\n  font-size: 100px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n}\r\n"],
-  "mappings": ";AAAA;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;;AAGF;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;;",
+  "sourcesContent": ["h2 {\r\n  font-family: Baro;\r\n  font-size: 200px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n  margin: 0 40px;\r\n}\r\n\r\nh3 {\r\n  font-family: Baro;\r\n  font-size: 100px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n  margin: 0 20px;\r\n}\r\n\r\nh4 {\r\n  font-family: Baro;\r\n  font-size: 100px;\r\n  text-align: center;\r\n  color: var(--main-color);\r\n  margin-top: 40px;\r\n}\r\n\r\n:host {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: center;\r\n  height: 100vh;\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;AACA,UAAA,EAAA;;AAGF;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;AACA,UAAA,EAAA;;AAGF;AACE,eAAA;AACA,aAAA;AACA,cAAA;AACA,SAAA,IAAA;AACA,cAAA;;AAGF;AACE,WAAA;AACA,kBAAA;AACA,eAAA;AACA,mBAAA;AACA,UAAA;;",
   "names": []
 }

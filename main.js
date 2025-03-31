@@ -36804,16 +36804,19 @@ var AppComponent = class _AppComponent {
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 4, vars: 0, template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 6, vars: 0, template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "h2");
       \u0275\u0275text(1, "\u0431\u0430\u0440\u043E");
       \u0275\u0275elementEnd();
       \u0275\u0275elementStart(2, "h3");
-      \u0275\u0275text(3, "coming soon");
+      \u0275\u0275text(3, "\u043C\u0435\u043D\u044E");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(4, "h4");
+      \u0275\u0275text(5, "coming soon");
       \u0275\u0275elementEnd();
     }
-  }, styles: ["\n\nh2[_ngcontent-%COMP%] {\n  font-family: Baro;\n  font-size: 200px;\n  text-align: center;\n  color: var(--main-color);\n}\nh3[_ngcontent-%COMP%] {\n  font-family: Baro;\n  font-size: 100px;\n  text-align: center;\n  color: var(--main-color);\n}\n/*# sourceMappingURL=app.component.css.map */"] });
+  }, styles: ["\n\nh2[_ngcontent-%COMP%] {\n  font-family: Baro;\n  font-size: 200px;\n  text-align: center;\n  color: var(--main-color);\n  margin: 0 40px;\n}\nh3[_ngcontent-%COMP%] {\n  font-family: Baro;\n  font-size: 100px;\n  text-align: center;\n  color: var(--main-color);\n  margin: 0 20px;\n}\nh4[_ngcontent-%COMP%] {\n  font-family: Baro;\n  font-size: 100px;\n  text-align: center;\n  color: var(--main-color);\n  margin-top: 40px;\n}\n[_nghost-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src\\app\\app.component.ts", lineNumber: 11 });
