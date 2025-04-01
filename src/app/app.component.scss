@@ -1,31 +1,44 @@
-h2 {
-  font-family: Baro;
-  font-size: 200px;
+.menu-title {
+  font-family: Baro, serif;
+  font-size: 210px;
   text-align: center;
   color: var(--main-color);
-  margin: 0 40px;
+  transform: rotate(90deg);
+  transition: all 0.5s;
+
+  &.scrolled {
+    transform: rotate(0);
+    opacity: 0;
+  }
 }
 
-h3 {
-  font-family: Baro;
-  font-size: 100px;
-  text-align: center;
-  color: var(--main-color);
-  margin: 0 20px;
-}
-
-h4 {
-  font-family: Baro;
-  font-size: 100px;
-  text-align: center;
-  color: var(--main-color);
-  margin-top: 40px;
-}
-
-:host {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.scroll-container {
   height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  font-family: Baro, serif;
+  padding-top: 60px;
+
+  h4 {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .products-container {
+    padding: 30px 20px;
+
+    .product {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+  }
 }

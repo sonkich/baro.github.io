@@ -1,3 +1,17 @@
-<h2>баро</h2>
-<h3>меню</h3>
-<h4>coming soon</h4>
+<main>
+  <app-header [scrolled]="scrolled"></app-header>
+  <div class="scroll-container" (scroll)="handleScroll($event)">
+    <section>
+      <h3 class="menu-title" [ngClass]="{'scrolled': scrolled}">меню</h3>
+    </section>
+    <section *ngFor="let key of productsKeys">
+      <h4>{{key}}</h4>
+      <div class="products-container">
+        <div class="product" *ngFor="let product of groupedProducts[key]">
+          <div>{{product.name}}</div>
+          <div>{{product.price}}</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>

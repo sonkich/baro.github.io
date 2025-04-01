@@ -1,0 +1,517 @@
+[
+  {
+    "name": "Кока кола продукт",
+    "category": "Студени безалкохолни",
+    "price": "3"
+  },
+  {
+    "name": "Фрапе",
+    "category": "Студени безалкохолни",
+    "price": "4.5"
+  },
+  {
+    "name": "Фредо Еспресо",
+    "category": "Студени безалкохолни",
+    "price": "4.5"
+  },
+  {
+    "name": "Фредо Капучино",
+    "category": "Студени безалкохолни",
+    "price": "4.5"
+  },
+  {
+    "name": "Смути Банан и Ягода",
+    "category": "Студени безалкохолни",
+    "price": "7"
+  },
+  {
+    "name": "Минерална вода",
+    "category": "Студени безалкохолни",
+    "price": "2"
+  },
+  {
+    "name": "Клуб сода",
+    "category": "Студени безалкохолни",
+    "price": "2.5"
+  },
+  {
+    "name": "Домашен Студен чай",
+    "category": "Студени безалкохолни",
+    "price": "4"
+  },
+  {
+    "name": "Натурален сок Капи",
+    "category": "Студени безалкохолни",
+    "price": "3"
+  },
+  {
+    "name": "Лимонада",
+    "category": "Студени безалкохолни",
+    "price": "4.5"
+  },
+  {
+    "name": "Ред бул",
+    "category": "Студени безалкохолни",
+    "price": "6"
+  },
+  {
+    "name": "Добавка Вкус - Бисквитка, Ванилия, Лешник, Карамел",
+    "category": "Студени безалкохолни",
+    "price": "1"
+  },
+  {
+    "name": "Фреш цитрус",
+    "category": "Фреш",
+    "price": "5"
+  },
+  {
+    "name": "Савой уиски",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Jim Beam",
+    "category": "Алкохол",
+    "price": "4.2"
+  },
+  {
+    "name": "Four Roses",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Jack Daniels",
+    "category": "Алкохол",
+    "price": "6"
+  },
+  {
+    "name": "Gentleman Jack",
+    "category": "Алкохол",
+    "price": "8"
+  },
+  {
+    "name": "Pogues",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Jameson",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Tullamore Dew",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Johnnie Walker Red",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Johnnie Walker Black",
+    "category": "Алкохол",
+    "price": "7.5"
+  },
+  {
+    "name": "Chivas Regal 12 y.o",
+    "category": "Алкохол",
+    "price": "7.5"
+  },
+  {
+    "name": "Glenfiddich",
+    "category": "Алкохол",
+    "price": "10"
+  },
+  {
+    "name": "Савой водка",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Finlandia",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Russian Standart",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Grey Goose",
+    "category": "Алкохол",
+    "price": "17"
+  },
+  {
+    "name": "Бакарди бял",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Havana Club 3",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Havana Club 7",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Sailor Jerry Spiced",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Савой джин",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Gordons gin",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Beefeater gin",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Beefeater Pink",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Hendricks gin",
+    "category": "Алкохол",
+    "price": "9"
+  },
+  {
+    "name": "Baileys Irish Cream",
+    "category": "Алкохол",
+    "price": "5"
+  },
+  {
+    "name": "Amaretto Disaronno",
+    "category": "Алкохол",
+    "price": "5"
+  },
+  {
+    "name": "Aperol",
+    "category": "Алкохол",
+    "price": "5"
+  },
+  {
+    "name": "Campari",
+    "category": "Алкохол",
+    "price": "5"
+  },
+  {
+    "name": "Canto",
+    "category": "Алкохол",
+    "price": "5"
+  },
+  {
+    "name": "Marie  Brizard Mint",
+    "category": "Алкохол",
+    "price": "3.5"
+  },
+  {
+    "name": "Узо Пломари",
+    "category": "Алкохол",
+    "price": "3.5"
+  },
+  {
+    "name": "Узо 12",
+    "category": "Алкохол",
+    "price": "3.5"
+  },
+  {
+    "name": "Бургаска мускатова",
+    "category": "Алкохол",
+    "price": "3.5"
+  },
+  {
+    "name": "Братя Минкови",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Бургас 63",
+    "category": "Алкохол",
+    "price": "4.5"
+  },
+  {
+    "name": "Коняк Метакса",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Коняк Плиска",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Афтършок",
+    "category": "Алкохол",
+    "price": "4"
+  },
+  {
+    "name": "Текила Сиера",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Йегермайстер",
+    "category": "Алкохол",
+    "price": "3"
+  },
+  {
+    "name": "Aperol Spritz",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Campari Spritz",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Canto Classic",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Мохито (Класическо, малина, ягода)",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Aftershock Mojito",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Mai Tai",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Еспресо Мартини",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Long Island",
+    "category": "Коктейли",
+    "price": "12"
+  },
+  {
+    "name": "Negroni",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Водка Сауър (Класическа, Малина, Ягода",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Уиски Сауър",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Амарето Сауър",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Йегер Бомб",
+    "category": "Коктейли",
+    "price": "5"
+  },
+  {
+    "name": "Бейби Гинес",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Б-52",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Кръстникът",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Чийзкейк",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Хлъзгаво зърно",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "След 8",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Свирка",
+    "category": "Коктейли",
+    "price": "4"
+  },
+  {
+    "name": "Кампари Шприц",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Канто Класик",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Канто Голд",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Канто Платинум",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Шейкър шот",
+    "category": "Коктейли",
+    "price": "15"
+  },
+  {
+    "name": "Джин Тоник",
+    "category": "Коктейли",
+    "price": "8"
+  },
+  {
+    "name": "Маргарита",
+    "category": "Коктейли",
+    "price": "9"
+  },
+  {
+    "name": "Бургаско",
+    "category": "Бира",
+    "price": "3.5"
+  },
+  {
+    "name": "Стела Артоа",
+    "category": "Бира",
+    "price": "4.5"
+  },
+  {
+    "name": "Каменица",
+    "category": "Бира",
+    "price": "3.5"
+  },
+  {
+    "name": "Старопрамен",
+    "category": "Бира",
+    "price": "4"
+  },
+  {
+    "name": "Корона",
+    "category": "Бира",
+    "price": "6"
+  },
+  {
+    "name": "Ердингер / Erdinger",
+    "category": "Бира",
+    "price": "8"
+  },
+  {
+    "name": "Меди Вали чаша",
+    "category": "Други",
+    "price": "4.5"
+  },
+  {
+    "name": "Мед",
+    "category": "Други",
+    "price": "0.7"
+  },
+  {
+    "name": "Чай",
+    "category": "Топли напитки",
+    "price": "3.5"
+  },
+  {
+    "name": "Кафе Еспресо Boromeo",
+    "category": "Топли напитки",
+    "price": "2.8"
+  },
+  {
+    "name": "Безкофеиново кафе Boromeo",
+    "category": "Топли напитки",
+    "price": "2.8"
+  },
+  {
+    "name": "Капучино",
+    "category": "Топли напитки",
+    "price": "3.9"
+  },
+  {
+    "name": "Мляко с Нес",
+    "category": "Топли напитки",
+    "price": "3.5"
+  },
+  {
+    "name": "Лате",
+    "category": "Топли напитки",
+    "price": "3.9"
+  },
+  {
+    "name": "Горещ шоколад",
+    "category": "Топли напитки",
+    "price": "4"
+  },
+  {
+    "name": "Добавка Мляко",
+    "category": "Топли напитки",
+    "price": "0.5"
+  },
+  {
+    "name": "Добавка Вкус - Ванилия, Бисквитка, Лешник, Карамел",
+    "category": "Топли напитки",
+    "price": "1"
+  },
+  {
+    "name": "Мляко с Какао",
+    "category": "Топли напитки",
+    "price": "3.9"
+  },
+  {
+    "name": "Кашу",
+    "category": "Ядки",
+    "price": "8"
+  },
+  {
+    "name": "Бадем",
+    "category": "Ядки",
+    "price": "8"
+  },
+  {
+    "name": "Микс",
+    "category": "Ядки",
+    "price": "8"
+  },
+  {
+    "name": "Фъстъци",
+    "category": "Ядки",
+    "price": "5"
+  }
+]

@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:baro": "node dist/baro/server/server.mjs",
-    "pages": "npx angular-cli-ghpages --dir=dist/baro/browser --cname=baro.club"
+    "pages": "npx angular-cli-ghpages --dir=dist/baro/browser --cname=baro.club",
+    "build-prod": "ng build --configuration development --base-href https://baro.club/"
   },
   "private": true,
   "dependencies": {
