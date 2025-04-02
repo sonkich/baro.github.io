@@ -36802,21 +36802,32 @@ var appConfig = {
 var _c0 = (a0) => ({ "scrolled": a0 });
 var HeaderComponent = class _HeaderComponent {
   scrolled = false;
+  categories = [];
+  menuClick = new EventEmitter();
+  handleMenuClick() {
+    this.menuClick.emit(true);
+  }
   static \u0275fac = function HeaderComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _HeaderComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], inputs: { scrolled: "scrolled" }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 4, vars: 3, consts: [[1, "header", 3, "ngClass"]], template: function HeaderComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], inputs: { scrolled: "scrolled", categories: "categories" }, outputs: { menuClick: "menuClick" }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 6, vars: 3, consts: [[1, "header", 3, "ngClass"], ["xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 448 512", 3, "click"], ["d", "M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"]], template: function HeaderComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "div", 0)(1, "p");
       \u0275\u0275text(2, "\u0431\u0430\u0440\u043E");
       \u0275\u0275elementEnd();
       \u0275\u0275element(3, "span");
-      \u0275\u0275elementEnd();
+      \u0275\u0275namespaceSVG();
+      \u0275\u0275elementStart(4, "svg", 1);
+      \u0275\u0275listener("click", function HeaderComponent_Template_svg_click_4_listener() {
+        return ctx.handleMenuClick();
+      });
+      \u0275\u0275element(5, "path", 2);
+      \u0275\u0275elementEnd()();
     }
     if (rf & 2) {
       \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(1, _c0, ctx.scrolled));
     }
-  }, dependencies: [CommonModule, NgClass], styles: ['\n\n[_nghost-%COMP%] {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  background-image: url("./media/background.jpg");\n  background-size: 40%;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%] {\n  height: 60px;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: -100%;\n  border-bottom: 1px solid var(--main-color);\n  transition: all 0.5s;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 100px;\n  text-align: center;\n  margin: 0;\n  color: var(--main-color);\n  position: absolute;\n  top: 40%;\n  left: 50%;\n  transform: translateX(-50%);\n  transition: all 0.5s;\n}\n[_nghost-%COMP%]   .header.scrolled[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  left: 0;\n}\n[_nghost-%COMP%]   .header.scrolled[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 56px;\n  top: 0;\n}\n/*# sourceMappingURL=header.component.css.map */'] });
+  }, dependencies: [CommonModule, NgClass], styles: ['\n\n[_nghost-%COMP%] {\n  position: fixed;\n  top: 0;\n  width: 100%;\n  background-image: url("./media/background.jpg");\n  background-size: 40%;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%] {\n  height: 60px;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  width: 100%;\n  position: absolute;\n  bottom: 0;\n  left: -100%;\n  border-bottom: 1px solid var(--main-color);\n  transition: all 0.5s;\n}\n[_nghost-%COMP%]   .header[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 100px;\n  text-align: center;\n  margin: 0;\n  color: var(--main-color);\n  position: absolute;\n  top: 40%;\n  left: 50%;\n  transform: translateX(-50%);\n  transition: all 0.5s;\n}\n[_nghost-%COMP%]   .header.scrolled[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  left: 0;\n}\n[_nghost-%COMP%]   .header.scrolled[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\n  font-size: 56px;\n  top: 0;\n}\n[_nghost-%COMP%]   svg[_ngcontent-%COMP%] {\n  width: 30px;\n  height: 30px;\n  fill: var(--main-color);\n  cursor: pointer;\n  position: absolute;\n  top: 15px;\n  right: 10px;\n}\n/*# sourceMappingURL=header.component.css.map */'] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HeaderComponent, { className: "HeaderComponent", filePath: "src\\app\\components\\header\\header.component.ts", lineNumber: 11 });
@@ -36824,273 +36835,369 @@ var HeaderComponent = class _HeaderComponent {
 
 // src/app/data/grouped.json
 var grouped_default = {
-  "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438": [
+  "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438": [
     {
       name: "\u041A\u043E\u043A\u0430 \u043A\u043E\u043B\u0430 \u043F\u0440\u043E\u0434\u0443\u043A\u0442",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "3"
     },
     {
       name: "\u0424\u0440\u0430\u043F\u0435",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
     {
       name: "\u0424\u0440\u0435\u0434\u043E \u0415\u0441\u043F\u0440\u0435\u0441\u043E",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
     {
       name: "\u0424\u0440\u0435\u0434\u043E \u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
     {
       name: "\u0421\u043C\u0443\u0442\u0438 \u0411\u0430\u043D\u0430\u043D \u0438 \u042F\u0433\u043E\u0434\u0430",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "7"
     },
     {
       name: "\u041C\u0438\u043D\u0435\u0440\u0430\u043B\u043D\u0430 \u0432\u043E\u0434\u0430",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "2"
     },
     {
       name: "\u041A\u043B\u0443\u0431 \u0441\u043E\u0434\u0430",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "2.5"
     },
     {
       name: "\u0414\u043E\u043C\u0430\u0448\u0435\u043D \u0421\u0442\u0443\u0434\u0435\u043D \u0447\u0430\u0439",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4"
     },
     {
       name: "\u041D\u0430\u0442\u0443\u0440\u0430\u043B\u0435\u043D \u0441\u043E\u043A \u041A\u0430\u043F\u0438",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "3"
     },
     {
       name: "\u041B\u0438\u043C\u043E\u043D\u0430\u0434\u0430",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
     {
       name: "\u0420\u0435\u0434 \u0431\u0443\u043B",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "6"
     },
     {
-      name: "\u0414\u043E\u0431\u0430\u0432\u043A\u0430 \u0412\u043A\u0443\u0441 - \u0411\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u0412\u0430\u043D\u0438\u043B\u0438\u044F, \u041B\u0435\u0448\u043D\u0438\u043A, \u041A\u0430\u0440\u0430\u043C\u0435\u043B",
-      category: "\u0421\u0442\u0443\u0434\u0435\u043D\u0438 \u0431\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438",
-      price: "1"
+      name: "\u0424\u0440\u0435\u0448 \u0446\u0438\u0442\u0440\u0443\u0441",
+      category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "5"
     }
   ],
-  \u0410\u043B\u043A\u043E\u0445\u043E\u043B: [
+  "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438": [
+    {
+      name: "\u0427\u0430\u0439",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "3.5"
+    },
+    {
+      name: "\u041A\u0430\u0444\u0435 \u0415\u0441\u043F\u0440\u0435\u0441\u043E Boromeo",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "2.8"
+    },
+    {
+      name: "\u0411\u0435\u0437\u043A\u043E\u0444\u0435\u0438\u043D\u043E\u0432\u043E \u043A\u0430\u0444\u0435 Boromeo",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "2.8"
+    },
+    {
+      name: "\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "3.9"
+    },
+    {
+      name: "\u041C\u043B\u044F\u043A\u043E \u0441 \u041D\u0435\u0441",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "3.5"
+    },
+    {
+      name: "\u041B\u0430\u0442\u0435",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "3.9"
+    },
+    {
+      name: "\u0413\u043E\u0440\u0435\u0449 \u0448\u043E\u043A\u043E\u043B\u0430\u0434",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "4"
+    },
+    {
+      name: "\u041C\u043B\u044F\u043A\u043E \u0441 \u041A\u0430\u043A\u0430\u043E",
+      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
+      price: "3.9"
+    }
+  ],
+  \u0411\u0438\u0440\u0430: [
+    {
+      name: "\u0411\u0443\u0440\u0433\u0430\u0441\u043A\u043E",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "3.5"
+    },
+    {
+      name: "\u0421\u0442\u0435\u043B\u0430 \u0410\u0440\u0442\u043E\u0430",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "4.5"
+    },
+    {
+      name: "\u041A\u0430\u043C\u0435\u043D\u0438\u0446\u0430",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "3.5"
+    },
+    {
+      name: "\u0421\u0442\u0430\u0440\u043E\u043F\u0440\u0430\u043C\u0435\u043D",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "4"
+    },
+    {
+      name: "\u041A\u043E\u0440\u043E\u043D\u0430",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "6"
+    },
+    {
+      name: "\u0415\u0440\u0434\u0438\u043D\u0433\u0435\u0440 / Erdinger",
+      category: "\u0411\u0438\u0440\u0430",
+      price: "8"
+    }
+  ],
+  \u042F\u0434\u043A\u0438: [
+    {
+      name: "\u041A\u0430\u0448\u0443",
+      category: "\u042F\u0434\u043A\u0438",
+      price: "8"
+    },
+    {
+      name: "\u0411\u0430\u0434\u0435\u043C",
+      category: "\u042F\u0434\u043A\u0438",
+      price: "8"
+    },
+    {
+      name: "\u041C\u0438\u043A\u0441",
+      category: "\u042F\u0434\u043A\u0438",
+      price: "8"
+    },
+    {
+      name: "\u0424\u044A\u0441\u0442\u044A\u0446\u0438",
+      category: "\u042F\u0434\u043A\u0438",
+      price: "5"
+    }
+  ],
+  \u0423\u0438\u0441\u043A\u0438: [
     {
       name: "\u0421\u0430\u0432\u043E\u0439 \u0443\u0438\u0441\u043A\u0438",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "3"
     },
     {
       name: "Jim Beam",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4.2"
     },
     {
       name: "Four Roses",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4"
     },
     {
       name: "Jack Daniels",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "6"
     },
     {
       name: "Gentleman Jack",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "8"
     },
     {
       name: "Pogues",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4.5"
     },
     {
       name: "Jameson",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4.5"
     },
     {
       name: "Tullamore Dew",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4.5"
     },
     {
       name: "Johnnie Walker Red",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "4"
     },
     {
       name: "Johnnie Walker Black",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "7.5"
     },
     {
       name: "Chivas Regal 12 y.o",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "7.5"
     },
     {
       name: "Glenfiddich",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0423\u0438\u0441\u043A\u0438",
       price: "10"
-    },
+    }
+  ],
+  \u0412\u043E\u0434\u043A\u0430: [
     {
       name: "\u0421\u0430\u0432\u043E\u0439 \u0432\u043E\u0434\u043A\u0430",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0412\u043E\u0434\u043A\u0430",
       price: "3"
     },
     {
       name: "Finlandia",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0412\u043E\u0434\u043A\u0430",
       price: "4"
     },
     {
       name: "Russian Standart",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0412\u043E\u0434\u043A\u0430",
       price: "4"
     },
     {
       name: "Grey Goose",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0412\u043E\u0434\u043A\u0430",
       price: "17"
-    },
+    }
+  ],
+  \u0420\u043E\u043C: [
     {
       name: "\u0411\u0430\u043A\u0430\u0440\u0434\u0438 \u0431\u044F\u043B",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0420\u043E\u043C",
       price: "4"
     },
     {
       name: "Havana Club 3",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0420\u043E\u043C",
       price: "4"
     },
     {
       name: "Havana Club 7",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0420\u043E\u043C",
       price: "4"
     },
     {
       name: "Sailor Jerry Spiced",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0420\u043E\u043C",
       price: "4.5"
-    },
+    }
+  ],
+  \u0414\u0436\u0438\u043D: [
     {
       name: "\u0421\u0430\u0432\u043E\u0439 \u0434\u0436\u0438\u043D",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0436\u0438\u043D",
       price: "3"
     },
     {
       name: "Gordons gin",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0436\u0438\u043D",
       price: "4"
     },
     {
       name: "Beefeater gin",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0436\u0438\u043D",
       price: "4.5"
     },
     {
       name: "Beefeater Pink",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0436\u0438\u043D",
       price: "4.5"
     },
     {
       name: "Hendricks gin",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0436\u0438\u043D",
       price: "9"
-    },
-    {
-      name: "Baileys Irish Cream",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "5"
-    },
-    {
-      name: "Amaretto Disaronno",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "5"
-    },
-    {
-      name: "Aperol",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "5"
-    },
-    {
-      name: "Campari",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "5"
-    },
-    {
-      name: "Canto",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "5"
-    },
-    {
-      name: "Marie  Brizard Mint",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "3.5"
-    },
+    }
+  ],
+  \u0414\u0440\u0443\u0433\u0438: [
     {
       name: "\u0423\u0437\u043E \u041F\u043B\u043E\u043C\u0430\u0440\u0438",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "3.5"
     },
     {
       name: "\u0423\u0437\u043E 12",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "3.5"
     },
     {
       name: "\u0411\u0443\u0440\u0433\u0430\u0441\u043A\u0430 \u043C\u0443\u0441\u043A\u0430\u0442\u043E\u0432\u0430",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "3.5"
     },
     {
       name: "\u0411\u0440\u0430\u0442\u044F \u041C\u0438\u043D\u043A\u043E\u0432\u0438",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "4.5"
     },
     {
       name: "\u0411\u0443\u0440\u0433\u0430\u0441 63",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "4.5"
     },
     {
       name: "\u041A\u043E\u043D\u044F\u043A \u041C\u0435\u0442\u0430\u043A\u0441\u0430",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "4"
     },
     {
       name: "\u041A\u043E\u043D\u044F\u043A \u041F\u043B\u0438\u0441\u043A\u0430",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
+      category: "\u0414\u0440\u0443\u0433\u0438",
       price: "3"
     },
     {
-      name: "\u0410\u0444\u0442\u044A\u0440\u0448\u043E\u043A",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "4"
+      name: "\u041C\u0435\u0434\u0438 \u0412\u0430\u043B\u0438 \u0447\u0430\u0448\u0430",
+      category: "\u0414\u0440\u0443\u0433\u0438",
+      price: "4.5"
+    }
+  ],
+  \u041B\u0438\u043A\u044C\u043E\u0440: [
+    {
+      name: "Baileys Irish Cream",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "5"
     },
     {
-      name: "\u0422\u0435\u043A\u0438\u043B\u0430 \u0421\u0438\u0435\u0440\u0430",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "3"
+      name: "Amaretto Disaronno",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "5"
     },
     {
-      name: "\u0419\u0435\u0433\u0435\u0440\u043C\u0430\u0439\u0441\u0442\u0435\u0440",
-      category: "\u0410\u043B\u043A\u043E\u0445\u043E\u043B",
-      price: "3"
+      name: "Aperol",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "5"
+    },
+    {
+      name: "Campari",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "5"
+    },
+    {
+      name: "Canto",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "5"
+    },
+    {
+      name: "Marie  Brizard Mint",
+      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
+      price: "3.5"
     }
   ],
   \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438: [
@@ -37155,46 +37262,6 @@ var grouped_default = {
       price: "9"
     },
     {
-      name: "\u0419\u0435\u0433\u0435\u0440 \u0411\u043E\u043C\u0431",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "5"
-    },
-    {
-      name: "\u0411\u0435\u0439\u0431\u0438 \u0413\u0438\u043D\u0435\u0441",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0411-52",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u041A\u0440\u044A\u0441\u0442\u043D\u0438\u043A\u044A\u0442",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0427\u0438\u0439\u0437\u043A\u0435\u0439\u043A",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0425\u043B\u044A\u0437\u0433\u0430\u0432\u043E \u0437\u044A\u0440\u043D\u043E",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0421\u043B\u0435\u0434 8",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0421\u0432\u0438\u0440\u043A\u0430",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "4"
-    },
-    {
       name: "\u041A\u0430\u043C\u043F\u0430\u0440\u0438 \u0428\u043F\u0440\u0438\u0446",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
       price: "9"
@@ -37230,119 +37297,71 @@ var grouped_default = {
       price: "9"
     }
   ],
-  \u0411\u0438\u0440\u0430: [
+  \u0428\u043E\u0442\u043E\u0432\u0435: [
     {
-      name: "\u0411\u0443\u0440\u0433\u0430\u0441\u043A\u043E",
-      category: "\u0411\u0438\u0440\u0430",
-      price: "3.5"
-    },
-    {
-      name: "\u0421\u0442\u0435\u043B\u0430 \u0410\u0440\u0442\u043E\u0430",
-      category: "\u0411\u0438\u0440\u0430",
-      price: "4.5"
-    },
-    {
-      name: "\u041A\u0430\u043C\u0435\u043D\u0438\u0446\u0430",
-      category: "\u0411\u0438\u0440\u0430",
-      price: "3.5"
-    },
-    {
-      name: "\u0421\u0442\u0430\u0440\u043E\u043F\u0440\u0430\u043C\u0435\u043D",
-      category: "\u0411\u0438\u0440\u0430",
+      name: "\u0410\u0444\u0442\u044A\u0440\u0448\u043E\u043A",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
       price: "4"
     },
     {
-      name: "\u041A\u043E\u0440\u043E\u043D\u0430",
-      category: "\u0411\u0438\u0440\u0430",
-      price: "6"
+      name: "\u0422\u0435\u043A\u0438\u043B\u0430 \u0421\u0438\u0435\u0440\u0430",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "3"
     },
     {
-      name: "\u0415\u0440\u0434\u0438\u043D\u0433\u0435\u0440 / Erdinger",
-      category: "\u0411\u0438\u0440\u0430",
-      price: "8"
-    }
-  ],
-  "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438": [
-    {
-      name: "\u0427\u0430\u0439",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "3.5"
+      name: "\u0419\u0435\u0433\u0435\u0440\u043C\u0430\u0439\u0441\u0442\u0435\u0440",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "3"
     },
     {
-      name: "\u041A\u0430\u0444\u0435 \u0415\u0441\u043F\u0440\u0435\u0441\u043E Boromeo",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "2.8"
-    },
-    {
-      name: "\u0411\u0435\u0437\u043A\u043E\u0444\u0435\u0438\u043D\u043E\u0432\u043E \u043A\u0430\u0444\u0435 Boromeo",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "2.8"
-    },
-    {
-      name: "\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "3.9"
-    },
-    {
-      name: "\u041C\u043B\u044F\u043A\u043E \u0441 \u041D\u0435\u0441",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "3.5"
-    },
-    {
-      name: "\u041B\u0430\u0442\u0435",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "3.9"
-    },
-    {
-      name: "\u0413\u043E\u0440\u0435\u0449 \u0448\u043E\u043A\u043E\u043B\u0430\u0434",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "4"
-    },
-    {
-      name: "\u0414\u043E\u0431\u0430\u0432\u043A\u0430 \u041C\u043B\u044F\u043A\u043E",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "0.5"
-    },
-    {
-      name: "\u0414\u043E\u0431\u0430\u0432\u043A\u0430 \u0412\u043A\u0443\u0441 - \u0412\u0430\u043D\u0438\u043B\u0438\u044F, \u0411\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u041B\u0435\u0448\u043D\u0438\u043A, \u041A\u0430\u0440\u0430\u043C\u0435\u043B",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "1"
-    },
-    {
-      name: "\u041C\u043B\u044F\u043A\u043E \u0441 \u041A\u0430\u043A\u0430\u043E",
-      category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
-      price: "3.9"
-    }
-  ],
-  \u042F\u0434\u043A\u0438: [
-    {
-      name: "\u041A\u0430\u0448\u0443",
-      category: "\u042F\u0434\u043A\u0438",
-      price: "8"
-    },
-    {
-      name: "\u0411\u0430\u0434\u0435\u043C",
-      category: "\u042F\u0434\u043A\u0438",
-      price: "8"
-    },
-    {
-      name: "\u041C\u0438\u043A\u0441",
-      category: "\u042F\u0434\u043A\u0438",
-      price: "8"
-    },
-    {
-      name: "\u0424\u044A\u0441\u0442\u044A\u0446\u0438",
-      category: "\u042F\u0434\u043A\u0438",
+      name: "\u0419\u0435\u0433\u0435\u0440 \u0411\u043E\u043C\u0431",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
       price: "5"
+    },
+    {
+      name: "\u0411\u0435\u0439\u0431\u0438 \u0413\u0438\u043D\u0435\u0441",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u0411-52",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u041A\u0440\u044A\u0441\u0442\u043D\u0438\u043A\u044A\u0442",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u0427\u0438\u0439\u0437\u043A\u0435\u0439\u043A",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u0425\u043B\u044A\u0437\u0433\u0430\u0432\u043E \u0437\u044A\u0440\u043D\u043E",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u0421\u043B\u0435\u0434 8",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
+    },
+    {
+      name: "\u0421\u0432\u0438\u0440\u043A\u0430",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "4"
     }
   ]
 };
 
 // src/app/app.component.ts
 var _c02 = (a0) => ({ "scrolled": a0 });
+var _c1 = (a0) => ({ "open": a0 });
 function AppComponent_section_6_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 6)(1, "div");
+    \u0275\u0275elementStart(0, "div", 12)(1, "div");
     \u0275\u0275text(2);
     \u0275\u0275elementEnd();
     \u0275\u0275elementStart(3, "div");
@@ -37352,27 +37371,46 @@ function AppComponent_section_6_div_4_Template(rf, ctx) {
   if (rf & 2) {
     const product_r1 = ctx.$implicit;
     \u0275\u0275advance(2);
-    \u0275\u0275textInterpolate(product_r1.name);
+    \u0275\u0275textInterpolate(product_r1.name.toString().toLowerCase());
     \u0275\u0275advance(2);
     \u0275\u0275textInterpolate(product_r1.price);
   }
 }
 function AppComponent_section_6_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "section")(1, "h4");
+    \u0275\u0275elementStart(0, "section", 9)(1, "h4");
     \u0275\u0275text(2);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "div", 4);
-    \u0275\u0275template(4, AppComponent_section_6_div_4_Template, 5, 2, "div", 5);
+    \u0275\u0275elementStart(3, "div", 10);
+    \u0275\u0275template(4, AppComponent_section_6_div_4_Template, 5, 2, "div", 11);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
     const key_r2 = ctx.$implicit;
     const ctx_r2 = \u0275\u0275nextContext();
+    \u0275\u0275property("id", key_r2);
     \u0275\u0275advance(2);
-    \u0275\u0275textInterpolate(key_r2);
+    \u0275\u0275textInterpolate(key_r2.toString().toLowerCase());
     \u0275\u0275advance(2);
     \u0275\u0275property("ngForOf", ctx_r2.groupedProducts[key_r2]);
+  }
+}
+function AppComponent_span_12_Template(rf, ctx) {
+  if (rf & 1) {
+    const _r4 = \u0275\u0275getCurrentView();
+    \u0275\u0275elementStart(0, "span", 13);
+    \u0275\u0275listener("click", function AppComponent_span_12_Template_span_click_0_listener() {
+      const category_r5 = \u0275\u0275restoreView(_r4).$implicit;
+      const ctx_r2 = \u0275\u0275nextContext();
+      return \u0275\u0275resetView(ctx_r2.navigate(category_r5));
+    });
+    \u0275\u0275text(1);
+    \u0275\u0275elementEnd();
+  }
+  if (rf & 2) {
+    const category_r5 = ctx.$implicit;
+    \u0275\u0275advance();
+    \u0275\u0275textInterpolate1(" ", category_r5.toString().toLowerCase(), " ");
   }
 }
 var AppComponent = class _AppComponent {
@@ -37380,38 +37418,72 @@ var AppComponent = class _AppComponent {
   scrolled = false;
   groupedProducts = grouped_default;
   productsKeys;
+  menuOpen = false;
+  menuFolded = false;
+  onScroll(event) {
+    this.adjustScrolls();
+  }
+  handleMenuClick() {
+    this.menuOpen = !this.menuOpen;
+  }
   ngOnInit() {
     this.productsKeys = Object.keys(grouped_default);
+    this.adjustScrolls();
   }
-  handleScroll(event) {
-    this.scrolled = event.target.scrollTop > 20;
+  adjustScrolls() {
+    this.scrolled = window.scrollY > 145;
+    this.menuFolded = window.scrollY > 90;
+  }
+  navigate(category) {
+    const element = document.getElementById(category);
+    element.scrollIntoView({ behavior: "smooth" });
+    this.menuOpen = false;
   }
   static \u0275fac = function AppComponent_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _AppComponent)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 7, vars: 5, consts: [[3, "scrolled"], [1, "scroll-container", 3, "scroll"], [1, "menu-title", 3, "ngClass"], [4, "ngFor", "ngForOf"], [1, "products-container"], ["class", "product", 4, "ngFor", "ngForOf"], [1, "product"]], template: function AppComponent_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], hostBindings: function AppComponent_HostBindings(rf, ctx) {
     if (rf & 1) {
-      \u0275\u0275elementStart(0, "main");
-      \u0275\u0275element(1, "app-header", 0);
-      \u0275\u0275elementStart(2, "div", 1);
-      \u0275\u0275listener("scroll", function AppComponent_Template_div_scroll_2_listener($event) {
-        return ctx.handleScroll($event);
+      \u0275\u0275listener("scroll", function AppComponent_scroll_HostBindingHandler($event) {
+        return ctx.onScroll($event);
+      }, false, \u0275\u0275resolveWindow);
+    }
+  }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 13, vars: 10, consts: [[3, "menuClick", "scrolled", "categories"], [1, "scroll-container"], [1, "menu-title", 3, "ngClass"], [3, "id", 4, "ngFor", "ngForOf"], [1, "description"], [1, "navigation", 3, "ngClass"], [1, "empty-space", 3, "click"], [1, "menu-items"], [3, "click", 4, "ngFor", "ngForOf"], [3, "id"], [1, "products-container"], ["class", "product", 4, "ngFor", "ngForOf"], [1, "product"], [3, "click"]], template: function AppComponent_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275elementStart(0, "main")(1, "app-header", 0);
+      \u0275\u0275listener("menuClick", function AppComponent_Template_app_header_menuClick_1_listener() {
+        return ctx.handleMenuClick();
       });
-      \u0275\u0275elementStart(3, "section")(4, "h3", 2);
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(2, "div", 1)(3, "section")(4, "h3", 2);
       \u0275\u0275text(5, "\u043C\u0435\u043D\u044E");
       \u0275\u0275elementEnd()();
-      \u0275\u0275template(6, AppComponent_section_6_Template, 5, 2, "section", 3);
+      \u0275\u0275template(6, AppComponent_section_6_Template, 5, 3, "section", 3);
+      \u0275\u0275elementStart(7, "p", 4);
+      \u0275\u0275text(8, "\u0412\u0441\u0438\u0447\u043A\u0438 \u0446\u0435\u043D\u0438 \u0441\u0430 \u0432 \u0431\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438 \u043B\u0435\u0432\u0430.");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(9, "div", 5)(10, "div", 6);
+      \u0275\u0275listener("click", function AppComponent_Template_div_click_10_listener() {
+        return ctx.handleMenuClick();
+      });
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(11, "div", 7);
+      \u0275\u0275template(12, AppComponent_span_12_Template, 2, 1, "span", 8);
       \u0275\u0275elementEnd()();
     }
     if (rf & 2) {
       \u0275\u0275advance();
-      \u0275\u0275property("scrolled", ctx.scrolled);
+      \u0275\u0275property("scrolled", ctx.menuFolded)("categories", ctx.productsKeys);
       \u0275\u0275advance(3);
-      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(3, _c02, ctx.scrolled));
+      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(6, _c02, ctx.scrolled));
       \u0275\u0275advance(2);
       \u0275\u0275property("ngForOf", ctx.productsKeys);
+      \u0275\u0275advance(3);
+      \u0275\u0275property("ngClass", \u0275\u0275pureFunction1(8, _c1, ctx.menuOpen));
+      \u0275\u0275advance(3);
+      \u0275\u0275property("ngForOf", ctx.productsKeys);
     }
-  }, dependencies: [HeaderComponent, CommonModule, NgClass, NgForOf], styles: ["\n\n.menu-title[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 210px;\n  text-align: center;\n  color: var(--main-color);\n  transform: rotate(90deg);\n  transition: all 0.5s;\n}\n.menu-title.scrolled[_ngcontent-%COMP%] {\n  transform: rotate(0);\n  opacity: 0;\n}\n.scroll-container[_ngcontent-%COMP%] {\n  height: 100vh;\n  overflow-y: scroll;\n  scroll-snap-type: y mandatory;\n}\nsection[_ngcontent-%COMP%] {\n  min-height: 100vh;\n  scroll-snap-align: start;\n  font-family: Baro, serif;\n  padding-top: 60px;\n}\nsection[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 32px;\n  margin: 0;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%] {\n  padding: 30px 20px;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%]   .product[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 15px;\n  font-size: 20px;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
+  }, dependencies: [HeaderComponent, CommonModule, NgClass, NgForOf], styles: ["\n\n[_nghost-%COMP%] {\n  max-width: 100%;\n  overflow-x: hidden;\n}\n.menu-title[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 210px;\n  text-align: center;\n  color: var(--main-color);\n  transform: rotate(90deg);\n  transition: all 0.5s;\n}\n.menu-title.scrolled[_ngcontent-%COMP%] {\n  transform: rotate(0);\n  opacity: 0;\n}\nsection[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  padding-top: 80px;\n}\nsection[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 32px;\n  margin: 0;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%] {\n  padding: 30px 20px;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%]   .product[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 15px;\n  font-size: 20px;\n}\n.navigation[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  display: grid;\n  grid-template-columns: 40% 1fr;\n  z-index: 1;\n  left: 100%;\n  transition: all 0.5s ease-in-out;\n}\n.navigation.open[_ngcontent-%COMP%] {\n  left: 0;\n}\n.navigation.open[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  display: flex;\n}\n.navigation.open[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  visibility: visible;\n}\n.navigation[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.3);\n  height: 100vh;\n  visibility: hidden;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  background-color: #fcfaf5;\n  flex-direction: column;\n  padding: 50px 20px 20px;\n  display: none;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  padding: 10px 0;\n  text-align: center;\n  text-decoration: none;\n  color: var(--main-color);\n  font-family: Baro, serif;\n  font-size: 20px;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: Baro;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src\\app\\app.component.ts", lineNumber: 14 });
