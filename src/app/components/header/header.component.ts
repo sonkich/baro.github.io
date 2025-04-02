@@ -1,4 +1,4 @@
-import { Component, HostListener, Input } from '@angular/core';
+import { Component, EventEmitter, HostListener, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,4 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class HeaderComponent {
   @Input() public scrolled: boolean = false;
+  @Input() public categories: string[] = [];
+
+  @Output() public menuClick: EventEmitter<any> = new EventEmitter<any>();
+
+  public handleMenuClick() {
+    this.menuClick.emit(true);
+  }
 }

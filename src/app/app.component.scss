@@ -1,3 +1,8 @@
+:host {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .menu-title {
   font-family: Baro, serif;
   font-size: 210px;
@@ -12,17 +17,9 @@
   }
 }
 
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
-
 section {
-  min-height: 100vh;
-  scroll-snap-align: start;
   font-family: Baro, serif;
-  padding-top: 60px;
+  padding-top: 80px;
 
   h4 {
     text-align: center;
@@ -41,4 +38,57 @@ section {
     }
 
   }
+}
+
+.navigation {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  z-index: 1;
+  left: 100%;
+  transition: all 0.5s ease-in-out;
+
+  &.open {
+    left: 0;
+
+    .menu-items {
+      display: flex;
+    }
+
+    .empty-space {
+      visibility: visible;
+    }
+  }
+
+
+  .empty-space {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    visibility: hidden;
+  }
+
+  .menu-items {
+    background-color: #fcfaf5;
+    flex-direction: column;
+    padding: 50px 20px 20px;
+    display: none;
+
+    span {
+      padding: 10px 0;
+      text-align: center;
+      text-decoration: none;
+      color: var(--main-color);
+      font-family: Baro, serif;
+      font-size: 20px;
+    }
+  }
+}
+
+.description {
+  text-align: center;
+  font-family: Baro;
+
 }

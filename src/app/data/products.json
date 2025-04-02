@@ -1,272 +1,267 @@
 [
   {
     "name": "Кока кола продукт",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "3"
   },
   {
     "name": "Фрапе",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "4.5"
   },
   {
     "name": "Фредо Еспресо",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "4.5"
   },
   {
     "name": "Фредо Капучино",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "4.5"
   },
   {
     "name": "Смути Банан и Ягода",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "7"
   },
   {
     "name": "Минерална вода",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "2"
   },
   {
     "name": "Клуб сода",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "2.5"
   },
   {
     "name": "Домашен Студен чай",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "4"
   },
   {
     "name": "Натурален сок Капи",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "3"
   },
   {
     "name": "Лимонада",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "4.5"
   },
   {
     "name": "Ред бул",
-    "category": "Студени безалкохолни",
+    "category": "Безалкохолни напитки",
     "price": "6"
   },
   {
-    "name": "Добавка Вкус - Бисквитка, Ванилия, Лешник, Карамел",
-    "category": "Студени безалкохолни",
-    "price": "1"
-  },
-  {
     "name": "Фреш цитрус",
-    "category": "Фреш",
+    "category": "Безалкохолни напитки",
     "price": "5"
   },
   {
     "name": "Савой уиски",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "3"
   },
   {
     "name": "Jim Beam",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4.2"
   },
   {
     "name": "Four Roses",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4"
   },
   {
     "name": "Jack Daniels",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "6"
   },
   {
     "name": "Gentleman Jack",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "8"
   },
   {
     "name": "Pogues",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4.5"
   },
   {
     "name": "Jameson",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4.5"
   },
   {
     "name": "Tullamore Dew",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4.5"
   },
   {
     "name": "Johnnie Walker Red",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "4"
   },
   {
     "name": "Johnnie Walker Black",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "7.5"
   },
   {
     "name": "Chivas Regal 12 y.o",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "7.5"
   },
   {
     "name": "Glenfiddich",
-    "category": "Алкохол",
+    "category": "Уиски",
     "price": "10"
   },
   {
     "name": "Савой водка",
-    "category": "Алкохол",
+    "category": "Водка",
     "price": "3"
   },
   {
     "name": "Finlandia",
-    "category": "Алкохол",
+    "category": "Водка",
     "price": "4"
   },
   {
     "name": "Russian Standart",
-    "category": "Алкохол",
+    "category": "Водка",
     "price": "4"
   },
   {
     "name": "Grey Goose",
-    "category": "Алкохол",
+    "category": "Водка",
     "price": "17"
   },
   {
     "name": "Бакарди бял",
-    "category": "Алкохол",
+    "category": "Ром",
     "price": "4"
   },
   {
     "name": "Havana Club 3",
-    "category": "Алкохол",
+    "category": "Ром",
     "price": "4"
   },
   {
     "name": "Havana Club 7",
-    "category": "Алкохол",
+    "category": "Ром",
     "price": "4"
   },
   {
     "name": "Sailor Jerry Spiced",
-    "category": "Алкохол",
+    "category": "Ром",
     "price": "4.5"
   },
   {
     "name": "Савой джин",
-    "category": "Алкохол",
+    "category": "Джин",
     "price": "3"
   },
   {
     "name": "Gordons gin",
-    "category": "Алкохол",
+    "category": "Джин",
     "price": "4"
   },
   {
     "name": "Beefeater gin",
-    "category": "Алкохол",
+    "category": "Джин",
     "price": "4.5"
   },
   {
     "name": "Beefeater Pink",
-    "category": "Алкохол",
+    "category": "Джин",
     "price": "4.5"
   },
   {
     "name": "Hendricks gin",
-    "category": "Алкохол",
+    "category": "Джин",
     "price": "9"
   },
   {
     "name": "Baileys Irish Cream",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "5"
   },
   {
     "name": "Amaretto Disaronno",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "5"
   },
   {
     "name": "Aperol",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "5"
   },
   {
     "name": "Campari",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "5"
   },
   {
     "name": "Canto",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "5"
   },
   {
     "name": "Marie  Brizard Mint",
-    "category": "Алкохол",
+    "category": "Ликьор",
     "price": "3.5"
   },
   {
     "name": "Узо Пломари",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "3.5"
   },
   {
     "name": "Узо 12",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "3.5"
   },
   {
     "name": "Бургаска мускатова",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "3.5"
   },
   {
     "name": "Братя Минкови",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "4.5"
   },
   {
     "name": "Бургас 63",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "4.5"
   },
   {
     "name": "Коняк Метакса",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "4"
   },
   {
     "name": "Коняк Плиска",
-    "category": "Алкохол",
+    "category": "Други",
     "price": "3"
   },
   {
     "name": "Афтършок",
-    "category": "Алкохол",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Текила Сиера",
-    "category": "Алкохол",
+    "category": "Шотове",
     "price": "3"
   },
   {
     "name": "Йегермайстер",
-    "category": "Алкохол",
+    "category": "Шотове",
     "price": "3"
   },
   {
@@ -331,42 +326,42 @@
   },
   {
     "name": "Йегер Бомб",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "5"
   },
   {
     "name": "Бейби Гинес",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Б-52",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Кръстникът",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Чийзкейк",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Хлъзгаво зърно",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "След 8",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
     "name": "Свирка",
-    "category": "Коктейли",
+    "category": "Шотове",
     "price": "4"
   },
   {
@@ -440,11 +435,6 @@
     "price": "4.5"
   },
   {
-    "name": "Мед",
-    "category": "Други",
-    "price": "0.7"
-  },
-  {
     "name": "Чай",
     "category": "Топли напитки",
     "price": "3.5"
@@ -478,16 +468,6 @@
     "name": "Горещ шоколад",
     "category": "Топли напитки",
     "price": "4"
-  },
-  {
-    "name": "Добавка Мляко",
-    "category": "Топли напитки",
-    "price": "0.5"
-  },
-  {
-    "name": "Добавка Вкус - Ванилия, Бисквитка, Лешник, Карамел",
-    "category": "Топли напитки",
-    "price": "1"
   },
   {
     "name": "Мляко с Какао",
