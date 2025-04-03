@@ -36843,6 +36843,7 @@ var grouped_default = {
     },
     {
       name: "\u0424\u0440\u0430\u043F\u0435",
+      variations: "\u0431\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B, \u0432\u0430\u043D\u0438\u043B\u0438\u044F",
       category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
@@ -36853,6 +36854,7 @@ var grouped_default = {
     },
     {
       name: "\u0424\u0440\u0435\u0434\u043E \u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E",
+      variations: "\u0431\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B, \u0432\u0430\u043D\u0438\u043B\u0438\u044F",
       category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
@@ -36883,6 +36885,7 @@ var grouped_default = {
     },
     {
       name: "\u041B\u0438\u043C\u043E\u043D\u0430\u0434\u0430",
+      variations: "\u044F\u0433\u043E\u0434\u0430, \u043C\u0430\u043B\u0438\u043D\u0430, \u0433\u043E\u0440\u0441\u043A\u0438 \u043F\u043B\u043E\u0434\u043E\u0432\u0435, \u0431\u044A\u0437 \u0438 \u0434\u0436\u0438\u043D\u0434\u0436\u0438\u0444\u0438\u043B, \u043F\u0440\u0430\u0441\u043A\u043E\u0432\u0430, \u043A\u0438\u0432\u0438",
       category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "4.5"
     },
@@ -36893,6 +36896,7 @@ var grouped_default = {
     },
     {
       name: "\u0424\u0440\u0435\u0448 \u0446\u0438\u0442\u0440\u0443\u0441",
+      variations: "\u043F\u043E\u0440\u0442\u043E\u043A\u0430\u043B, \u043B\u0438\u043C\u043E\u043D, \u0433\u0440\u0435\u0439\u043F\u0444\u0440\u0443\u0442",
       category: "\u0411\u0435\u0437\u0430\u043B\u043A\u043E\u0445\u043E\u043B\u043D\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "5"
     }
@@ -36915,16 +36919,19 @@ var grouped_default = {
     },
     {
       name: "\u041A\u0430\u043F\u0443\u0447\u0438\u043D\u043E",
+      variations: "\u0431\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B, \u0432\u0430\u043D\u0438\u043B\u0438\u044F",
       category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "3.9"
     },
     {
       name: "\u041C\u043B\u044F\u043A\u043E \u0441 \u041D\u0435\u0441",
+      variations: "\u0431\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B, \u0432\u0430\u043D\u0438\u043B\u0438\u044F",
       category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "3.5"
     },
     {
       name: "\u041B\u0430\u0442\u0435",
+      variations: "\u0431\u0438\u0441\u043A\u0432\u0438\u0442\u043A\u0430, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B, \u0432\u0430\u043D\u0438\u043B\u0438\u044F",
       category: "\u0422\u043E\u043F\u043B\u0438 \u043D\u0430\u043F\u0438\u0442\u043A\u0438",
       price: "3.9"
     },
@@ -37180,121 +37187,115 @@ var grouped_default = {
       price: "5"
     },
     {
-      name: "Aperol",
-      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
-      price: "5"
-    },
-    {
-      name: "Campari",
-      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
-      price: "5"
-    },
-    {
-      name: "Canto",
-      category: "\u041B\u0438\u043A\u044C\u043E\u0440",
-      price: "5"
-    },
-    {
       name: "Marie  Brizard Mint",
       category: "\u041B\u0438\u043A\u044C\u043E\u0440",
       price: "3.5"
     }
   ],
+  "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438": [
+    {
+      name: "\u0410\u043F\u0435\u0440\u043E\u043B \u0428\u043F\u0440\u0438\u0446",
+      category: "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "9",
+      ingredients: "\u0430\u043F\u0435\u0440\u043E\u043B, \u043F\u0440\u043E\u0441\u0435\u043A\u043E, \u0433\u0430\u0437\u0438\u0440\u0430\u043D\u0430 \u0432\u043E\u0434\u0430"
+    },
+    {
+      name: "\u041A\u0430\u043C\u043F\u0430\u0440\u0438 \u0428\u043F\u0440\u0438\u0446",
+      category: "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "9",
+      ingredients: "\u043A\u0430\u043C\u043F\u0430\u0440\u0438, \u043F\u0440\u043E\u0441\u0435\u043A\u043E, \u0433\u0430\u0437\u0438\u0440\u0430\u043D\u0430 \u0432\u043E\u0434\u0430"
+    },
+    {
+      name: "\u0410\u043F\u0435\u0440\u0435\u043C\u0435\u043D\u0442\u043E \u041A\u043B\u0430\u0441\u0438\u043A",
+      category: "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "8",
+      ingredients: "\u043A\u0430\u043D\u0442\u043E \u043A\u043B\u0430\u0441\u0438\u043A, \u043F\u0440\u043E\u0441\u0435\u043A\u043E"
+    },
+    {
+      name: "\u0410\u043F\u0435\u0440\u0435\u043C\u0435\u043D\u0442\u043E \u0413\u043E\u043B\u0434",
+      category: "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "8",
+      ingredients: "\u043A\u0430\u043D\u0442\u043E \u0433\u043E\u043B\u0434, \u043F\u0440\u043E\u0441\u0435\u043A\u043E"
+    },
+    {
+      name: "\u0410\u043F\u0435\u0440\u0435\u043C\u0435\u043D\u0442\u043E \u041F\u043B\u0430\u0442\u0438\u043D\u0443\u043C",
+      category: "\u0428\u043F\u0440\u0438\u0446 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "8",
+      ingredients: "\u043A\u0430\u043D\u0442\u043E \u043F\u043B\u0430\u0442\u0438\u043D\u0443\u043C, \u043F\u0440\u043E\u0441\u0435\u043A\u043E, \u0441\u043E\u0434\u0430"
+    }
+  ],
+  "\u0421\u0430\u0443\u044A\u0440 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438": [
+    {
+      name: "\u0412\u043E\u0434\u043A\u0430 \u0421\u0430\u0443\u044A\u0440",
+      variations: "(\u043A\u043B\u0430\u0441\u0438\u0447\u0435\u0441\u043A\u0430, \u043C\u0430\u043B\u0438\u043D\u0430, \u044F\u0433\u043E\u0434\u0430)",
+      category: "\u0421\u0430\u0443\u044A\u0440 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "9",
+      ingredients: "\u0432\u043E\u0434\u043A\u0430 \u0444\u0438\u043D\u043B\u0430\u043D\u0434\u0438\u044F, \u0437\u0430\u0445\u0430\u0440\u0435\u043D \u0441\u0438\u0440\u043E\u043F, \u043F\u0440\u044F\u0441\u043D\u043E \u0438\u0437\u0446\u0435\u0434\u0435\u043D \u043B\u0438\u043C\u043E\u043D, \u0432\u0435\u0433\u0430\u043D \u044F\u0439\u0447\u0435\u043D \u0431\u0435\u043B\u0442\u044A\u043A"
+    },
+    {
+      name: "\u0423\u0438\u0441\u043A\u0438 \u0421\u0430\u0443\u044A\u0440",
+      category: "\u0421\u0430\u0443\u044A\u0440 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "9",
+      ingredients: "\u0443\u0438\u0441\u043A\u0438 \u0447\u0435\u0442\u0438\u0440\u0438 \u0440\u043E\u0437\u0438, \u0437\u0430\u0445\u0430\u0440\u0435\u043D \u0441\u0438\u0440\u043E\u043F, \u043F\u0440\u044F\u0441\u043D\u043E \u0438\u0437\u0446\u0435\u0434\u0435\u043D \u043B\u0438\u043C\u043E\u043D, \u0432\u0435\u0433\u0430\u043D \u044F\u0439\u0447\u0435\u043D \u0431\u0435\u043B\u0442\u044A\u043A, \u0430\u043D\u0433\u043E\u0441\u0442\u0443\u0440\u0430"
+    },
+    {
+      name: "\u0410\u043C\u0430\u0440\u0435\u0442\u043E \u0421\u0430\u0443\u044A\u0440",
+      category: "\u0421\u0430\u0443\u044A\u0440 \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
+      price: "9",
+      ingredients: "\u0430\u043C\u0430\u0440\u0435\u0442\u043E \u0434\u0438\u0441\u0430\u0440\u043E\u043D\u043E, \u0437\u0430\u0445\u0430\u0440\u0435\u043D \u0441\u0438\u0440\u043E\u043F, \u043F\u0440\u044F\u0441\u043D\u043E \u0438\u0437\u0446\u0435\u0434\u0435\u043D \u043B\u0438\u043C\u043E\u043D, \u0432\u0435\u0433\u0430\u043D \u044F\u0439\u0447\u0435\u043D \u0431\u0435\u043B\u0442\u044A\u043A, \u0430\u043D\u0433\u043E\u0441\u0442\u0443\u0440\u0430"
+    }
+  ],
   \u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438: [
     {
-      name: "Aperol Spritz",
+      name: "\u041C\u043E\u0445\u0438\u0442\u043E",
+      variations: "(k\u043B\u0430\u0441\u0438\u0447\u0435\u0441\u043A\u043E, \u043C\u0430\u043B\u0438\u043D\u0430, \u044F\u0433\u043E\u0434\u0430)",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
+      price: "8",
+      ingredients: "\u0440\u043E\u043C \u0445\u0430\u0432\u0430\u043D\u0430 3, \u043B\u0430\u0439\u043C, \u043C\u0435\u043D\u0442\u0430, \u0433\u0430\u0437\u0438\u0440\u0430\u043D\u0430 \u0432\u043E\u0434\u0430"
     },
     {
-      name: "Campari Spritz",
+      name: "\u0410\u0444\u0442\u044A\u0440\u0448\u043E\u043A \u041C\u043E\u0445\u0438\u0442\u043E",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
+      price: "9",
+      ingredients: "\u043B\u0438\u043B\u0430\u0432 \u0430\u0444\u0442\u044A\u0440\u0448\u043E\u043A, \u043B\u0430\u0439\u043C, \u043C\u0435\u043D\u0442\u0430, \u0433\u0430\u0437\u0438\u0440\u0430\u043D\u0430 \u0432\u043E\u0434\u0430"
     },
     {
-      name: "Canto Classic",
+      name: "\u041C\u0430\u0439 \u0422\u0430\u0439",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
-    },
-    {
-      name: "\u041C\u043E\u0445\u0438\u0442\u043E (\u041A\u043B\u0430\u0441\u0438\u0447\u0435\u0441\u043A\u043E, \u043C\u0430\u043B\u0438\u043D\u0430, \u044F\u0433\u043E\u0434\u0430)",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
-    },
-    {
-      name: "Aftershock Mojito",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "Mai Tai",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
+      price: "9",
+      ingredients: "\u0440\u043E\u043C \u0445\u0430\u0432\u0430\u043D\u0430 3, \u0440\u043E\u043C \u0441\u0435\u0439\u043B\u044A\u0440\u0434\u0436\u0435\u0440\u0438, \u043F\u0440\u044F\u0441\u043D\u043E \u0438\u0437\u0435\u0434\u0435\u043D \u043B\u0438\u043C\u043E\u043D, \u043A\u043E\u0430\u043D\u0442\u0440\u043E, \u043E\u0440\u0436\u0435\u0442"
     },
     {
       name: "\u0415\u0441\u043F\u0440\u0435\u0441\u043E \u041C\u0430\u0440\u0442\u0438\u043D\u0438",
+      variations: "\u0431\u0435\u0437\u043A\u043E\u0444\u0435\u0438\u043D\u043E\u0432\u043E, \u0432\u0430\u043D\u0438\u043B\u0438\u044F, \u043B\u0435\u0448\u043D\u0438\u043A, \u043A\u0430\u0440\u0430\u043C\u0435\u043B,",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
+      price: "9",
+      ingredients: "\u0432\u043E\u0434\u043A\u0430 \u0444\u0438\u043D\u043B\u0430\u043D\u0434\u0438\u0430, \u043A\u0430\u0443\u043B\u0430, \u0435\u0441\u043F\u0440\u0435\u0441\u043E, \u0437\u0430\u0445\u0430\u0440\u0435\u043D \u0441\u0438\u0440\u043E\u043F"
     },
     {
       name: "Long Island",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "12"
+      price: "12",
+      ingredients: "\u0432\u043E\u0434\u043A\u0430 \u0444\u0438\u043D\u043B\u0430\u043D\u0434\u0438\u044F, \u0434\u0436\u0438\u043D \u0431\u0438\u0444\u0438\u0438\u0442\u044A\u0440, \u0440\u043E\u043C \u0445\u0430\u0432\u0430\u043D\u0430 3, \u0442\u0435\u043A\u0438\u043B\u0430 \u0441\u0438\u0435\u0440\u0430, \u043A\u043E\u0430\u043D\u0442\u0440\u043E, \u043F\u0440\u044F\u0441\u043D\u043E \u0438\u0437\u0435\u0434\u0435\u043D \u043B\u0438\u043C\u043E\u043D, \u0437\u0430\u0445\u0430\u0440\u0435\u043D \u0441\u0438\u0440\u043E\u043F, \u043A\u043E\u043B\u0430"
     },
     {
       name: "Negroni",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "\u0412\u043E\u0434\u043A\u0430 \u0421\u0430\u0443\u044A\u0440 (\u041A\u043B\u0430\u0441\u0438\u0447\u0435\u0441\u043A\u0430, \u041C\u0430\u043B\u0438\u043D\u0430, \u042F\u0433\u043E\u0434\u0430",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "\u0423\u0438\u0441\u043A\u0438 \u0421\u0430\u0443\u044A\u0440",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "\u0410\u043C\u0430\u0440\u0435\u0442\u043E \u0421\u0430\u0443\u044A\u0440",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "\u041A\u0430\u043C\u043F\u0430\u0440\u0438 \u0428\u043F\u0440\u0438\u0446",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
-    },
-    {
-      name: "\u041A\u0430\u043D\u0442\u043E \u041A\u043B\u0430\u0441\u0438\u043A",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
-    },
-    {
-      name: "\u041A\u0430\u043D\u0442\u043E \u0413\u043E\u043B\u0434",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
-    },
-    {
-      name: "\u041A\u0430\u043D\u0442\u043E \u041F\u043B\u0430\u0442\u0438\u043D\u0443\u043C",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
-    },
-    {
-      name: "\u0428\u0435\u0439\u043A\u044A\u0440 \u0448\u043E\u0442",
-      category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "15"
+      price: "9",
+      ingredients: "\u0434\u0436\u0438\u043D \u0431\u0438\u0444\u0438\u0438\u0442\u044A\u0440, \u043A\u0430\u043C\u043F\u0430\u0440\u0438, \u0441\u043B\u0430\u0434\u044A\u043A \u0432\u0435\u0440\u043C\u0443\u0442"
     },
     {
       name: "\u0414\u0436\u0438\u043D \u0422\u043E\u043D\u0438\u043A",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "8"
+      price: "8",
+      ingredients: "\u0434\u0436\u0438\u043D \u0441\u0430\u0432\u043E\u0439, \u0442\u043E\u043D\u0438\u043A"
     },
     {
-      name: "\u041C\u0430\u0440\u0433\u0430\u0440\u0438\u0442\u0430",
+      name: "\u0414\u0436\u0438\u043D \u0422\u043E\u043D\u0438\u043A \u0412\u043D\u043E\u0441",
+      variations: "\u0431\u0438\u0444\u0438\u0438\u0442\u044A\u0440, \u0440\u043E\u0437\u043E\u0432 \u0431\u0438\u0444\u0438\u0438\u0442\u044A\u0440, \u0433\u043E\u0440\u0434\u044A\u043D\u0441",
       category: "\u041A\u043E\u043A\u0442\u0435\u0439\u043B\u0438",
-      price: "9"
+      price: "10",
+      ingredients: "\u0434\u0436\u0438\u043D, \u0442\u043E\u043D\u0438\u043A"
     }
   ],
   \u0428\u043E\u0442\u043E\u0432\u0435: [
@@ -37321,37 +37322,49 @@ var grouped_default = {
     {
       name: "\u0411\u0435\u0439\u0431\u0438 \u0413\u0438\u043D\u0435\u0441",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u043A\u0430\u0443\u043B\u0430, \u0431\u0435\u0439\u043B\u0438\u0441"
     },
     {
       name: "\u0411-52",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u043A\u0430\u0443\u043B\u0430, \u0431\u0435\u0439\u043B\u0438\u0441, \u043A\u043E\u0430\u043D\u0442\u0440\u043E"
     },
     {
       name: "\u041A\u0440\u044A\u0441\u0442\u043D\u0438\u043A\u044A\u0442",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u0430\u043C\u0430\u0440\u0435\u0442\u043E \u0434\u0438\u0441\u0430\u0440\u043E\u043D\u043E, \u0447\u0435\u0440\u0432\u0435\u043D\u043E \u0434\u0436\u043E\u043D\u0438"
     },
     {
       name: "\u0427\u0438\u0439\u0437\u043A\u0435\u0439\u043A",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u0447\u0435\u0440\u0435\u043D \u0430\u0444\u0442\u044A\u0440\u0448\u043E\u043A, \u0431\u043E\u043B\u0441 \u0439\u043E\u0433\u0443\u0440\u0442"
     },
     {
       name: "\u0425\u043B\u044A\u0437\u0433\u0430\u0432\u043E \u0437\u044A\u0440\u043D\u043E",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u0441\u0430\u043C\u0431\u0443\u043A\u0430, \u0431\u0435\u0439\u043B\u0438\u0441"
     },
     {
       name: "\u0421\u043B\u0435\u0434 8",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u0431\u044F\u043B\u043E \u043A\u0430\u043A\u0430\u043E, \u043B\u0438\u043A\u044C\u043E\u0440 \u043C\u0435\u043D\u0442\u0430, \u0431\u0435\u0439\u043B\u0438\u0441"
     },
     {
       name: "\u0421\u0432\u0438\u0440\u043A\u0430",
       category: "\u0428\u043E\u0442\u043E\u0432\u0435",
-      price: "4"
+      price: "4",
+      ingredients: "\u043A\u0430\u0443\u043B\u0430, \u0431\u0435\u0439\u043B\u0438\u0441, \u0441\u043C\u0435\u0442\u0430\u043D\u0430"
+    },
+    {
+      name: "\u0428\u0435\u0439\u043A\u044A\u0440 \u0448\u043E\u0442",
+      category: "\u0428\u043E\u0442\u043E\u0432\u0435",
+      price: "15"
     }
   ]
 };
@@ -37359,19 +37372,50 @@ var grouped_default = {
 // src/app/app.component.ts
 var _c02 = (a0) => ({ "scrolled": a0 });
 var _c1 = (a0) => ({ "open": a0 });
+function AppComponent_section_6_div_4_span_4_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "span");
+    \u0275\u0275text(1);
+    \u0275\u0275elementEnd();
+  }
+  if (rf & 2) {
+    const product_r1 = \u0275\u0275nextContext().$implicit;
+    \u0275\u0275advance();
+    \u0275\u0275textInterpolate(product_r1.variations.toString().toLowerCase());
+  }
+}
+function AppComponent_section_6_div_4_p_5_Template(rf, ctx) {
+  if (rf & 1) {
+    \u0275\u0275elementStart(0, "p", 16);
+    \u0275\u0275text(1);
+    \u0275\u0275elementEnd();
+  }
+  if (rf & 2) {
+    const product_r1 = \u0275\u0275nextContext().$implicit;
+    \u0275\u0275advance();
+    \u0275\u0275textInterpolate(product_r1.ingredients.toString().toLowerCase());
+  }
+}
 function AppComponent_section_6_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275elementStart(0, "div", 12)(1, "div");
-    \u0275\u0275text(2);
+    \u0275\u0275elementStart(0, "div", 12)(1, "div")(2, "p", 13);
+    \u0275\u0275text(3);
+    \u0275\u0275template(4, AppComponent_section_6_div_4_span_4_Template, 2, 1, "span", 14);
     \u0275\u0275elementEnd();
-    \u0275\u0275elementStart(3, "div");
-    \u0275\u0275text(4);
+    \u0275\u0275template(5, AppComponent_section_6_div_4_p_5_Template, 2, 1, "p", 15);
+    \u0275\u0275elementEnd();
+    \u0275\u0275elementStart(6, "div");
+    \u0275\u0275text(7);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
     const product_r1 = ctx.$implicit;
-    \u0275\u0275advance(2);
-    \u0275\u0275textInterpolate(product_r1.name.toString().toLowerCase());
+    \u0275\u0275advance(3);
+    \u0275\u0275textInterpolate1("", product_r1.name.toString().toLowerCase(), " ");
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", product_r1.variations);
+    \u0275\u0275advance();
+    \u0275\u0275property("ngIf", product_r1.ingredients);
     \u0275\u0275advance(2);
     \u0275\u0275textInterpolate(product_r1.price);
   }
@@ -37382,7 +37426,7 @@ function AppComponent_section_6_Template(rf, ctx) {
     \u0275\u0275text(2);
     \u0275\u0275elementEnd();
     \u0275\u0275elementStart(3, "div", 10);
-    \u0275\u0275template(4, AppComponent_section_6_div_4_Template, 5, 2, "div", 11);
+    \u0275\u0275template(4, AppComponent_section_6_div_4_Template, 8, 4, "div", 11);
     \u0275\u0275elementEnd()();
   }
   if (rf & 2) {
@@ -37398,7 +37442,7 @@ function AppComponent_section_6_Template(rf, ctx) {
 function AppComponent_span_12_Template(rf, ctx) {
   if (rf & 1) {
     const _r4 = \u0275\u0275getCurrentView();
-    \u0275\u0275elementStart(0, "span", 13);
+    \u0275\u0275elementStart(0, "span", 17);
     \u0275\u0275listener("click", function AppComponent_span_12_Template_span_click_0_listener() {
       const category_r5 = \u0275\u0275restoreView(_r4).$implicit;
       const ctx_r2 = \u0275\u0275nextContext();
@@ -37448,7 +37492,7 @@ var AppComponent = class _AppComponent {
         return ctx.onScroll($event);
       }, false, \u0275\u0275resolveWindow);
     }
-  }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 13, vars: 10, consts: [[3, "menuClick", "scrolled", "categories"], [1, "scroll-container"], [1, "menu-title", 3, "ngClass"], [3, "id", 4, "ngFor", "ngForOf"], [1, "description"], [1, "navigation", 3, "ngClass"], [1, "empty-space", 3, "click"], [1, "menu-items"], [3, "click", 4, "ngFor", "ngForOf"], [3, "id"], [1, "products-container"], ["class", "product", 4, "ngFor", "ngForOf"], [1, "product"], [3, "click"]], template: function AppComponent_Template(rf, ctx) {
+  }, standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 13, vars: 10, consts: [[3, "menuClick", "scrolled", "categories"], [1, "scroll-container"], [1, "menu-title", 3, "ngClass"], [3, "id", 4, "ngFor", "ngForOf"], [1, "description"], [1, "navigation", 3, "ngClass"], [1, "empty-space", 3, "click"], [1, "menu-items"], [3, "click", 4, "ngFor", "ngForOf"], [3, "id"], [1, "products-container"], ["class", "product", 4, "ngFor", "ngForOf"], [1, "product"], [1, "title"], [4, "ngIf"], ["class", "ingredients", 4, "ngIf"], [1, "ingredients"], [3, "click"]], template: function AppComponent_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "main")(1, "app-header", 0);
       \u0275\u0275listener("menuClick", function AppComponent_Template_app_header_menuClick_1_listener() {
@@ -37483,7 +37527,7 @@ var AppComponent = class _AppComponent {
       \u0275\u0275advance(3);
       \u0275\u0275property("ngForOf", ctx.productsKeys);
     }
-  }, dependencies: [HeaderComponent, CommonModule, NgClass, NgForOf], styles: ["\n\n[_nghost-%COMP%] {\n  max-width: 100%;\n  overflow-x: hidden;\n}\n.menu-title[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 210px;\n  text-align: center;\n  color: var(--main-color);\n  transform: rotate(90deg);\n  transition: all 0.5s;\n  margin: 185px 0;\n}\n.menu-title.scrolled[_ngcontent-%COMP%] {\n  transform: rotate(0);\n  opacity: 0;\n}\nsection[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  padding-top: 80px;\n}\nsection[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 32px;\n  margin: 0;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%] {\n  padding: 30px 20px;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%]   .product[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 15px;\n  font-size: 20px;\n}\n.navigation[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  display: grid;\n  grid-template-columns: 40% 1fr;\n  z-index: 1;\n  left: 100%;\n  transition: all 0.5s ease-in-out;\n}\n.navigation.open[_ngcontent-%COMP%] {\n  left: 0;\n}\n.navigation.open[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  display: flex;\n}\n.navigation.open[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  visibility: visible;\n}\n.navigation[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.3);\n  height: 100vh;\n  visibility: hidden;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  background-color: #fcfaf5;\n  flex-direction: column;\n  padding: 50px 20px 20px;\n  display: none;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  padding: 10px 0;\n  text-align: center;\n  text-decoration: none;\n  color: var(--main-color);\n  font-family: Baro, serif;\n  font-size: 20px;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: Baro;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
+  }, dependencies: [HeaderComponent, CommonModule, NgClass, NgForOf, NgIf], styles: ["\n\n[_nghost-%COMP%] {\n  max-width: 100%;\n  overflow-x: hidden;\n}\n.menu-title[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  font-size: 210px;\n  text-align: center;\n  color: var(--main-color);\n  transform: rotate(90deg);\n  transition: all 0.5s;\n  margin: 185px 0;\n}\n.menu-title.scrolled[_ngcontent-%COMP%] {\n  transform: rotate(0);\n  opacity: 0;\n}\nsection[_ngcontent-%COMP%] {\n  font-family: Baro, serif;\n  padding-top: 80px;\n}\nsection[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  text-align: center;\n  font-size: 32px;\n  color: var(--main-color);\n  letter-spacing: 4px;\n  margin: 0;\n}\nsection[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%] {\n  color: var(--main-color);\n  font-size: 22px;\n  margin-top: 0;\n  margin-bottom: 10px;\n}\nsection[_ngcontent-%COMP%]   .title[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  font-size: 18px;\n}\nsection[_ngcontent-%COMP%]   .ingredients[_ngcontent-%COMP%] {\n  font-size: 16px;\n  margin: 0 0 10px 0;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%] {\n  padding: 30px 20px;\n}\nsection[_ngcontent-%COMP%]   .products-container[_ngcontent-%COMP%]   .product[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: space-between;\n  margin-bottom: 15px;\n  font-size: 20px;\n}\n.navigation[_ngcontent-%COMP%] {\n  position: fixed;\n  top: 0;\n  bottom: 0;\n  right: 0;\n  display: grid;\n  grid-template-columns: 40% 1fr;\n  z-index: 1;\n  left: 100%;\n  transition: all 0.5s ease-in-out;\n}\n.navigation.open[_ngcontent-%COMP%] {\n  left: 0;\n}\n.navigation.open[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  display: flex;\n}\n.navigation.open[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  visibility: visible;\n}\n.navigation[_ngcontent-%COMP%]   .empty-space[_ngcontent-%COMP%] {\n  background-color: rgba(0, 0, 0, 0.3);\n  height: 100vh;\n  visibility: hidden;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%] {\n  background-color: #fcfaf5;\n  flex-direction: column;\n  padding: 50px 20px 20px;\n  display: none;\n}\n.navigation[_ngcontent-%COMP%]   .menu-items[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  padding: 10px 0;\n  text-align: center;\n  text-decoration: none;\n  color: var(--main-color);\n  font-family: Baro, serif;\n  font-size: 20px;\n  letter-spacing: 2px;\n}\n.description[_ngcontent-%COMP%] {\n  text-align: center;\n  font-family: Baro;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(AppComponent, { className: "AppComponent", filePath: "src\\app\\app.component.ts", lineNumber: 14 });
