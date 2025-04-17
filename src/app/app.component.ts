@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { CommonModule } from '@angular/common';
 import groupedProducts from './data/grouped.json';
+import groupedProductsEn from './data/grouped_en.json';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +16,13 @@ export class AppComponent implements OnInit {
   title = 'baro';
   public scrolled: boolean = false;
   public groupedProducts = groupedProducts;
+  public groupedProductsEn = groupedProductsEn;
+  public groupedProductsBg = groupedProducts;
+  public products = this.groupedProducts;
   public productsKeys: string[];
   public menuOpen: boolean = false;
   public menuFolded: boolean = false;
+  public selectedLanguage = 'bg';
 
   @HostListener('window:scroll', ['$event']) // for window scroll events
   onScroll(event) {
@@ -31,6 +36,21 @@ export class AppComponent implements OnInit {
   public ngOnInit() {
     this.productsKeys = Object.keys(groupedProducts);
     this.adjustScrolls();
+  }
+
+  public setLanguage(language: string): void {
+    if (language === 'bg') {
+      // @ts-ignore
+      this.groupedProducts = this.groupedProductsBg;
+      this.productsKeys = Object.keys(this.groupedProductsBg);
+      this.selectedLanguage = 'bg';
+    } else {
+      // @ts-ignore
+      this.groupedProducts = this.groupedProductsEn;
+      this.productsKeys = Object.keys(this.groupedProductsEn);
+      this.selectedLanguage = 'en';
+    }
+
   }
 
   public adjustScrolls() {

@@ -1,0 +1,537 @@
+{
+  "Soft Drinks": [
+    {
+      "name": "Coca-Cola Product",
+      "category": "Soft Drinks",
+      "price": "3"
+    },
+    {
+      "name": "Frappe",
+      "variations": "cookie, hazelnut, caramel, vanilla",
+      "category": "Soft Drinks",
+      "price": "4.5"
+    },
+    {
+      "name": "Freddo Espresso",
+      "category": "Soft Drinks",
+      "price": "4.5"
+    },
+    {
+      "name": "Freddo Cappuccino",
+      "variations": "cookie, hazelnut, caramel, vanilla",
+      "category": "Soft Drinks",
+      "price": "4.5"
+    },
+    {
+      "name": "Banana and Strawberry Smoothie",
+      "category": "Soft Drinks",
+      "price": "7"
+    },
+    {
+      "name": "Mineral Water",
+      "category": "Soft Drinks",
+      "price": "2"
+    },
+    {
+      "name": "Club Soda",
+      "category": "Soft Drinks",
+      "price": "2.5"
+    },
+    {
+      "name": "Homemade Iced Tea",
+      "category": "Soft Drinks",
+      "price": "4"
+    },
+    {
+      "name": "Natural Juice Kapi",
+      "category": "Soft Drinks",
+      "price": "3"
+    },
+    {
+      "name": "Lemonade",
+      "variations": "strawberry, raspberry, forest fruits, elderflower and ginger, peach, kiwi",
+      "category": "Soft Drinks",
+      "price": "4.5"
+    },
+    {
+      "name": "Red Bull",
+      "category": "Soft Drinks",
+      "price": "6"
+    },
+    {
+      "name": "Citrus Fresh Juice",
+      "variations": "orange, lemon, grapefruit",
+      "category": "Soft Drinks",
+      "price": "5"
+    }
+  ],
+  "Hot Drinks": [
+    {
+      "name": "Tea",
+      "category": "Hot Drinks",
+      "price": "3.5"
+    },
+    {
+      "name": "Espresso Coffee Boromeo",
+      "category": "Hot Drinks",
+      "price": "2.8"
+    },
+    {
+      "name": "Decaffeinated Coffee Boromeo",
+      "category": "Hot Drinks",
+      "price": "2.8"
+    },
+    {
+      "name": "Cappuccino",
+      "variations": "cookie, hazelnut, caramel, vanilla",
+      "category": "Hot Drinks",
+      "price": "3.9"
+    },
+    {
+      "name": "Milk with Nes",
+      "variations": "cookie, hazelnut, caramel, vanilla",
+      "category": "Hot Drinks",
+      "price": "3.5"
+    },
+    {
+      "name": "Latte",
+      "variations": "cookie, hazelnut, caramel, vanilla",
+      "category": "Hot Drinks",
+      "price": "3.9"
+    },
+    {
+      "name": "Hot Chocolate",
+      "category": "Hot Drinks",
+      "price": "4"
+    },
+    {
+      "name": "Milk with Cocoa",
+      "category": "Hot Drinks",
+      "price": "3.9"
+    }
+  ],
+  "Beer": [
+    {
+      "name": "Burgasko",
+      "category": "Beer",
+      "price": "3.5"
+    },
+    {
+      "name": "Stella Artois",
+      "category": "Beer",
+      "price": "4.5"
+    },
+    {
+      "name": "Kamenitza",
+      "category": "Beer",
+      "price": "3.5"
+    },
+    {
+      "name": "Staropramen",
+      "category": "Beer",
+      "price": "4"
+    },
+    {
+      "name": "Corona",
+      "category": "Beer",
+      "price": "6"
+    },
+    {
+      "name": "Erdinger",
+      "category": "Beer",
+      "price": "8"
+    }
+  ],
+  "Nuts": [
+    {
+      "name": "Cashew",
+      "category": "Nuts",
+      "price": "8"
+    },
+    {
+      "name": "Almond",
+      "category": "Nuts",
+      "price": "8"
+    },
+    {
+      "name": "Mix",
+      "category": "Nuts",
+      "price": "8"
+    },
+    {
+      "name": "Peanuts",
+      "category": "Nuts",
+      "price": "5"
+    }
+  ],
+  "Whiskey": [
+    {
+      "name": "Savoy Whiskey",
+      "category": "Whiskey",
+      "price": "3"
+    },
+    {
+      "name": "Jim Beam",
+      "category": "Whiskey",
+      "price": "4.2"
+    },
+    {
+      "name": "Four Roses",
+      "category": "Whiskey",
+      "price": "4"
+    },
+    {
+      "name": "Jack Daniels",
+      "category": "Whiskey",
+      "price": "6"
+    },
+    {
+      "name": "Gentleman Jack",
+      "category": "Whiskey",
+      "price": "8"
+    },
+    {
+      "name": "Pogues",
+      "category": "Whiskey",
+      "price": "4.5"
+    },
+    {
+      "name": "Jameson",
+      "category": "Whiskey",
+      "price": "4.5"
+    },
+    {
+      "name": "Tullamore Dew",
+      "category": "Whiskey",
+      "price": "4.5"
+    },
+    {
+      "name": "Johnnie Walker Red",
+      "category": "Whiskey",
+      "price": "4"
+    },
+    {
+      "name": "Johnnie Walker Black",
+      "category": "Whiskey",
+      "price": "7.5"
+    },
+    {
+      "name": "Chivas Regal 12 y.o",
+      "category": "Whiskey",
+      "price": "7.5"
+    },
+    {
+      "name": "Glenfiddich",
+      "category": "Whiskey",
+      "price": "10"
+    }
+  ],
+  "Vodka": [
+    {
+      "name": "Savoy Vodka",
+      "category": "Vodka",
+      "price": "3"
+    },
+    {
+      "name": "Finlandia",
+      "category": "Vodka",
+      "price": "4"
+    },
+    {
+      "name": "Russian Standard",
+      "category": "Vodka",
+      "price": "4"
+    },
+    {
+      "name": "Grey Goose",
+      "category": "Vodka",
+      "price": "17"
+    }
+  ],
+  "Rum": [
+    {
+      "name": "Bacardi White",
+      "category": "Rum",
+      "price": "4"
+    },
+    {
+      "name": "Havana Club 3",
+      "category": "Rum",
+      "price": "4"
+    },
+    {
+      "name": "Havana Club 7",
+      "category": "Rum",
+      "price": "4"
+    },
+    {
+      "name": "Sailor Jerry Spiced",
+      "category": "Rum",
+      "price": "4.5"
+    }
+  ],
+  "Gin": [
+    {
+      "name": "Savoy Gin",
+      "category": "Gin",
+      "price": "3"
+    },
+    {
+      "name": "Gordon's Gin",
+      "category": "Gin",
+      "price": "4"
+    },
+    {
+      "name": "Beefeater Gin",
+      "category": "Gin",
+      "price": "4.5"
+    },
+    {
+      "name": "Beefeater Pink",
+      "category": "Gin",
+      "price": "4.5"
+    },
+    {
+      "name": "Hendrick's Gin",
+      "category": "Gin",
+      "price": "9"
+    }
+  ],
+  "Other": [
+    {
+      "name": "Ouzo Plomari",
+      "category": "Other",
+      "price": "3.5"
+    },
+    {
+      "name": "Ouzo 12",
+      "category": "Other",
+      "price": "3.5"
+    },
+    {
+      "name": "Burgas Muscat Rakia",
+      "category": "Other",
+      "price": "3.5"
+    },
+    {
+      "name": "Bratya Minkovi",
+      "category": "Other",
+      "price": "4.5"
+    },
+    {
+      "name": "Burgas 63",
+      "category": "Other",
+      "price": "4.5"
+    },
+    {
+      "name": "Metaxa Brandy",
+      "category": "Other",
+      "price": "4"
+    },
+    {
+      "name": "Pliska Brandy",
+      "category": "Other",
+      "price": "3"
+    },
+    {
+      "name": "Medi Valley glass",
+      "category": "Other",
+      "price": "4.5"
+    }
+  ],
+  "Liqueur": [
+    {
+      "name": "Baileys Irish Cream",
+      "category": "Liqueur",
+      "price": "5"
+    },
+    {
+      "name": "Amaretto Disaronno",
+      "category": "Liqueur",
+      "price": "5"
+    },
+    {
+      "name": "Marie Brizard Mint",
+      "category": "Liqueur",
+      "price": "3.5"
+    }
+  ],
+  "Spritz Cocktails": [
+    {
+      "name": "Aperol Spritz",
+      "category": "Spritz Cocktails",
+      "price": "9",
+      "ingredients": "aperol, prosecco, sparkling water"
+    },
+    {
+      "name": "Campari Spritz",
+      "category": "Spritz Cocktails",
+      "price": "9",
+      "ingredients": "campari, prosecco, sparkling water"
+    },
+    {
+      "name": "Apperemento Classic",
+      "category": "Spritz Cocktails",
+      "price": "8",
+      "ingredients": "Canto Classic, prosecco"
+    },
+    {
+      "name": "Apperemento Gold",
+      "category": "Spritz Cocktails",
+      "price": "8",
+      "ingredients": "Canto Gold, prosecco"
+    },
+    {
+      "name": "Apperemento Platinum",
+      "category": "Spritz Cocktails",
+      "price": "8",
+      "ingredients": "Canto Platinum, prosecco, soda"
+    }
+  ],
+  "Sour Cocktails": [
+    {
+      "name": "Vodka Sour",
+      "variations": "classic, raspberry, strawberry",
+      "category": "Sour Cocktails",
+      "price": "9",
+      "ingredients": "Finlandia vodka, sugar syrup, freshly squeezed lemon, vegan egg white"
+    },
+    {
+      "name": "Whiskey Sour",
+      "category": "Sour Cocktails",
+      "price": "9",
+      "ingredients": "Four Roses whiskey, sugar syrup, freshly squeezed lemon, vegan egg white, angostura"
+    },
+    {
+      "name": "Amaretto Sour",
+      "category": "Sour Cocktails",
+      "price": "9",
+      "ingredients": "Amaretto Disaronno, sugar syrup, freshly squeezed lemon, vegan egg white, angostura"
+    }
+  ],
+  "Cocktails": [
+    {
+      "name": "Mojito",
+      "variations": "classic, raspberry, strawberry",
+      "category": "Cocktails",
+      "price": "8",
+      "ingredients": "Havana 3 rum, lime, mint, sparkling water"
+    },
+    {
+      "name": "Aftershock Mojito",
+      "category": "Cocktails",
+      "price": "9",
+      "ingredients": "Purple Aftershock, lime, mint, sparkling water"
+    },
+    {
+      "name": "Mai Tai",
+      "category": "Cocktails",
+      "price": "9",
+      "ingredients": "Havana 3 rum, Sailor Jerry rum, freshly squeezed lemon, Cointreau, orgeat"
+    },
+    {
+      "name": "Espresso Martini",
+      "variations": "decaf, vanilla, hazelnut, caramel",
+      "category": "Cocktails",
+      "price": "9",
+      "ingredients": "Finlandia vodka, Kahlua, espresso, sugar syrup"
+    },
+    {
+      "name": "Long Island",
+      "category": "Cocktails",
+      "price": "12",
+      "ingredients": "Finlandia vodka, Beefeater gin, Havana 3 rum, Sierra tequila, Cointreau, freshly squeezed lemon, sugar syrup, cola"
+    },
+    {
+      "name": "Negroni",
+      "category": "Cocktails",
+      "price": "9",
+      "ingredients": "Beefeater gin, Campari, sweet vermouth"
+    },
+    {
+      "name": "Gin & Tonic",
+      "category": "Cocktails",
+      "price": "8",
+      "ingredients": "Savoy gin, tonic"
+    },
+    {
+      "name": "Imported Gin & Tonic",
+      "variations": "Beefeater, Beefeater Pink, Gordon’s",
+      "category": "Cocktails",
+      "price": "10",
+      "ingredients": "gin, tonic"
+    }
+  ],
+  "Shots": [
+    {
+      "name": "Aftershock",
+      "category": "Shots",
+      "price": "4"
+    },
+    {
+      "name": "Sierra Tequila",
+      "category": "Shots",
+      "price": "3"
+    },
+    {
+      "name": "Jägermeister",
+      "category": "Shots",
+      "price": "3"
+    },
+    {
+      "name": "Jäger Bomb",
+      "category": "Shots",
+      "price": "5"
+    },
+    {
+      "name": "Baby Guinness",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Kahlua, Baileys"
+    },
+    {
+      "name": "B-52",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Kahlua, Baileys, Cointreau"
+    },
+    {
+      "name": "The Godfather",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Amaretto Disaronno, Red Johnnie"
+    },
+    {
+      "name": "Cheesecake",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Black Aftershock, Bols Yogurt"
+    },
+    {
+      "name": "Slippery Grain",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Sambuca, Baileys"
+    },
+    {
+      "name": "After 8",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "White cocoa, mint liqueur, Baileys"
+    },
+    {
+      "name": "Whistle",
+      "category": "Shots",
+      "price": "4",
+      "ingredients": "Kahlua, Baileys, cream"
+    },
+    {
+      "name": "Shaker Shots",
+      "category": "Shots",
+      "price": "15"
+    }
+  ]
+}
+
+
+
