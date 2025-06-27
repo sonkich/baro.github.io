@@ -9,15 +9,17 @@
       <div class="products-container">
         <div class="product" *ngFor="let product of groupedProducts[key]">
           <div>
-            <p class="title">{{product.name.toString().toLowerCase()}} <span *ngIf="product.variations">({{product.variations.toString().toLowerCase()}})</span></p>
+            <p class="title">
+              {{product.name.toString().toLowerCase()}}
+              <span class="ingredients" *ngIf="product.variations">({{product.variations.toString().toLowerCase()}})</span>
+              <span class="volume"> - {{product.volume.toString().toLowerCase()}}{{product.metric.toString().toLowerCase()}}</span>
+            </p>
             <p class="ingredients" *ngIf="product.ingredients">{{product.ingredients.toString().toLowerCase()}}</p>
           </div>
           <div>{{product.price}}{{selectedLanguage === 'bg' ? 'лв.' : 'lv.'}}</div>
         </div>
       </div>
     </section>
-    <p class="description" *ngIf="selectedLanguage === 'bg'">Всички цени са в български лева.</p>
-    <p class="description" *ngIf="selectedLanguage === 'en'">All prices are in Bulgarian leva.</p>
   </div>
 </main>
 <div class="navigation" [ngClass]="{'open': menuOpen}">
@@ -26,9 +28,9 @@
     <span (click)=(navigate(category)) *ngFor="let category of productsKeys">
       {{category.toString().toLowerCase()}}
     </span>
-    <div class="flags">
-      <img src="./bg.png" alt="Bulgarian flag" [ngClass]="{selected: selectedLanguage === 'bg'}" (click)="setLanguage('bg')">
-      <img src="./uk.png" alt="British flag" [ngClass]="{selected: selectedLanguage !== 'bg'}" (click)="setLanguage('en')">
-    </div>
+<!--    <div class="flags">-->
+<!--      <img src="./bg.png" alt="Bulgarian flag" [ngClass]="{selected: selectedLanguage === 'bg'}" (click)="setLanguage('bg')">-->
+<!--      <img src="./uk.png" alt="British flag" [ngClass]="{selected: selectedLanguage !== 'bg'}" (click)="setLanguage('en')">-->
+<!--    </div>-->
   </div>
 </div>
